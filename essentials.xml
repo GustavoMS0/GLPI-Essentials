@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <name>Essentials</name>
+   <key>essentials</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-Essentials/main/essentials.png</logo>
+   <description>
+      <short>
+         <en>Operational enhancements for GLPI tickets: automatic SLA pause on approval or planned status, category code hiding, and quick link copy.</en>
+         <pt>Melhorias operacionais para chamados no GLPI: pausa automática de SLA em aprovação ou status planejado, ocultação de código de categoria e cópia rápida de link.</pt>
+      </short>
+      <long>
+         <en>Essentials provides independent, opt-in improvements for GLPI 10, 11, and 12 ticket workflows: automatic TTR SLA pause and compensation while a ticket is Planned or awaiting approval (using the SLA calendar with safe transition handling when entering native Waiting status), an optional SLA pause notice banner, clean removal of category code suffixes in selectors when a category code exists in the database, and a one-click ticket summary and link copy button.</en>
+         <pt>O Essentials reúne melhorias opcionais e independentes para o fluxo de chamados no GLPI 10, 11 e 12: pausa automática e compensação de SLA de solução enquanto o chamado está Planejado ou aguardando aprovação (respeitando o calendário da SLA e evitando contagem duplicada ao entrar no status Pendente nativo), banner opcional de aviso na ficha do chamado, ocultação limpa do código da categoria nos seletores quando há código cadastrado no banco e botão de cópia rápida de resumo e link do chamado.</pt>
+      </long>
+   </description>
+   <homepage>https://github.com/GustavoMS0/GLPI-Essentials</homepage>
+   <download>https://github.com/GustavoMS0/GLPI-Essentials/releases</download>
+   <issues>https://github.com/GustavoMS0/GLPI-Essentials/issues</issues>
+   <readme>https://github.com/GustavoMS0/GLPI-Essentials/blob/main/README.md</readme>
+   <authors>
+      <author>G. Martins</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>~12.0</compatibility>
+         <download_url>https://github.com/GustavoMS0/GLPI-Essentials/releases/download/v1.0.0/essentials-1.0.0.zip</download_url>
+      </version>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>~11.0</compatibility>
+         <download_url>https://github.com/GustavoMS0/GLPI-Essentials/releases/download/v1.0.0/essentials-1.0.0.zip</download_url>
+      </version>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>~10.0</compatibility>
+         <download_url>https://github.com/GustavoMS0/GLPI-Essentials/releases/download/v1.0.0/essentials-1.0.0.zip</download_url>
+      </version>
+   </versions>
+   <langs>
+      <lang>pt_BR</lang>
+   </langs>
+   <license>GPL v3+</license>
+   <tags>
+      <en>
+         <tag>ticket</tag>
+         <tag>sla</tag>
+         <tag>approval</tag>
+         <tag>category</tag>
+         <tag>productivity</tag>
+      </en>
+      <pt>
+         <tag>chamados</tag>
+         <tag>sla</tag>
+         <tag>aprovação</tag>
+         <tag>categoria</tag>
+         <tag>produtividade</tag>
+      </pt>
+   </tags>
+</root>

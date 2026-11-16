@@ -1,0 +1,130 @@
+# Essentials - GLPI plugin
+# Copyright (C) 2026 G. Martins
+# This file is distributed under the same license as the Essentials package (GPLv3+).
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Essentials 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/GustavoMS0/GLPI-Essentials/issues\n"
+"POT-Creation-Date: 2026-11-16 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: inc/config.class.php
+msgid "Essentials"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Ocultar código da categoria nos seletores"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Remove o sufixo de código (ex.: \" - HW01\") nos seletores de categoria quando a categoria possuir código cadastrado, preservando a hierarquia e hífens do nome."
+msgstr ""
+
+#: inc/config.class.php
+msgid "Interface de Chamados"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Botão de cópia rápida no chamado"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Adiciona um botão para copiar com um clique o número, título e link direto do chamado para a área de transferência."
+msgstr ""
+
+#: inc/config.class.php
+msgid "Pausar SLA enquanto aguarda aprovação"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Pausa automaticamente a contagem do SLA de solução enquanto a validação do chamado estiver pendente."
+msgstr ""
+
+#: inc/config.class.php
+msgid "Pausa Automática de SLA"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Pausar SLA no status Planejado"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Pausa automaticamente a contagem do SLA de solução enquanto o chamado permanecer com status Planejado."
+msgstr ""
+
+#: inc/config.class.php
+msgid "Exibir banner de SLA pausado no chamado"
+msgstr ""
+
+#: inc/config.class.php
+msgid "Mostra um aviso visual no topo da ficha do chamado informando os motivos e o horário de início da pausa ativa pelo plugin."
+msgstr ""
+
+#: inc/slapause.class.php
+msgid "SLA compensado pelo plugin Essentials: +%s (novo prazo: %s)."
+msgstr ""
+
+#: inc/uihooks.class.php
+msgid "Copiar resumo e link"
+msgstr ""
+
+#: inc/uihooks.class.php
+msgid "Copiado!"
+msgstr ""
+
+#: inc/uihooks.class.php
+msgid "Aprovação pendente"
+msgstr ""
+
+#: inc/uihooks.class.php
+msgid "Chamado planejado"
+msgstr ""
+
+#: inc/uihooks.class.php
+msgid "SLA de solução pausado pelo plugin Essentials"
+msgstr ""
+
+#: inc/uihooks.class.php
+msgid "Pausado desde: %s"
+msgstr ""
+
+#: front/config.form.php
+msgid "Configurações salvas com sucesso."
+msgstr ""
+
+#: front/config.form.php
+msgid "Geral"
+msgstr ""
+
+#: front/config.form.php
+msgid "Essentials — Configurações"
+msgstr ""
+
+#: front/config.form.php
+msgid "Todos os recursos iniciam desativados por padrão. Ative apenas o que fizer sentido para a operação."
+msgstr ""
+
+#: front/config.form.php
+msgid "Ativo"
+msgstr ""
+
+#: front/config.form.php
+msgid "Inativo"
+msgstr ""
+
+#: front/config.form.php
+msgid "Salvar"
+msgstr ""
+
+#: front/config.form.php
+msgid "Modo somente leitura (sem permissão de edição em Configuração)."
+msgstr ""

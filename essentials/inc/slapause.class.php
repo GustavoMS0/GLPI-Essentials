@@ -114,7 +114,7 @@ class PluginEssentialsSlapause
             . 'KEY `idx_tickets_id` (`tickets_id`)'
             . ') ENGINE=InnoDB DEFAULT CHARSET=' . $charset . ' COLLATE=' . $collation . ' ROW_FORMAT=DYNAMIC';
 
-        $DB->doQuery($sql);
+        self::execDdl($DB, $sql);
     }
 
     /**
@@ -127,7 +127,23 @@ class PluginEssentialsSlapause
         global $DB;
 
         if ($DB->tableExists(self::TABLE)) {
-            $DB->doQuery('DROP TABLE IF EXISTS `' . self::TABLE . '`');
+            self::execDdl($DB, 'DROP TABLE IF EXISTS `' . self::TABLE . '`');
+        }
+    }
+
+    /**
+     * Executes DDL compatibly with GLPI 10.0.0–10.0.10 (query) and 10.0.11+ (doQuery).
+     *
+     * @param mixed $db
+     */
+    private static function execDdl($db, string $sql): void
+    {
+        if (method_exists($db, 'doQuery')) {
+            $db->doQuery($sql);
+            return;
+        }
+        if (method_exists($db, 'query')) {
+            $db->query($sql);
         }
     }
 

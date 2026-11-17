@@ -1,5 +1,9 @@
 # Essentials para GLPI
 
+> [!WARNING]
+> **Status: Em Desenvolvimento (Beta / Pré-homologação)**
+> Este plugin teve a arquitetura, a segurança e os fluxos validados por revisão de código, auditoria de segurança e testes unitários automatizados em CI (`PHP 7.4–8.3` com mocks de GLPI 10/11/12), mas **ainda não foi testado em uma instância GLPI ao vivo**. Valide em ambiente de homologação antes de usar em produção e reporte eventuais ajustes via Issues.
+
 Melhorias operacionais opcionais para o fluxo de chamados no GLPI 10, 11 e 12, com todos os recursos desativados por padrão.
 
 | Versão do GLPI | PHP mínimo | Suporte |

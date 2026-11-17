@@ -2,7 +2,7 @@
 <root>
    <name>Essentials</name>
    <key>essentials</key>
-   <state>stable</state>
+   <state>beta</state>
    <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-Essentials/main/essentials.png</logo>
    <description>
       <short>
